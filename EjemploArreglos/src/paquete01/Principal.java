@@ -39,6 +39,10 @@ public class Principal {
                 pedidosMayores, 
                 pedidosMiercoles, 
                 cafeteriaMasPedida);
+        /*
+        En el metodo main invoco a todas las funciones, importandolos desde
+        otros paquetes. que me serviran para resolver la problematica.
+        */
     }
     
 }

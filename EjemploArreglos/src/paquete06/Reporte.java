@@ -32,4 +32,9 @@ public class Reporte {
             
         System.out.printf("%s\n", mensaje);
     }
+    /*
+    Este procedimiento me ayuda a presentar un reporte basado en todas las funciones
+    anteriores mediante una concatenacion de cadenas y un cilo for para recorrer
+    las posiciones de los arreglos.
+    */
 }

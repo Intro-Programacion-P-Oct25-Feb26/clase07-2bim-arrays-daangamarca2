@@ -24,8 +24,7 @@ public class DemoEstructuras02 {
         
         for (int i = 0; i < edades2.size(); i++) {
             System.out.printf("%s\n", edades2.get(i));
-        }
-       
+        }    
 
     }
 }

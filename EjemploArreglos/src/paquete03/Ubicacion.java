@@ -18,4 +18,8 @@ public class Ubicacion {
         
         return sedes;
     }
+    /*
+    En la funcion obtenerUbicaciones defino el arreglo de las ubicaciones de las
+    cafeterias, y lo retorno en un arreglo unidimensional al metodo main.
+    */
 }

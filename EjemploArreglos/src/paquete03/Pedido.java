@@ -22,8 +22,12 @@ public class Pedido {
             {240, 245, 250, 260, 255, 265, 200},
             {305, 310, 305, 315, 320, 302, 340}
         };
-        
+
         return pedidosCafeterias;
-                       
+        /*
+        En la funcion obtenerPedidos defino el arreglo de los pedidos segun los
+        dias y las cafeterias y lo retorno en un arreglo bidimensional al metodo
+        main
+         */
     }
 }

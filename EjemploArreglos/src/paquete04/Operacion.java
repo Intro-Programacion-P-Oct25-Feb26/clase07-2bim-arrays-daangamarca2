@@ -24,6 +24,11 @@ public class Operacion {
         }
 
         return promedios;
+        /*
+        En la funcion obtenerPromedioSemanal calculo el promedio de pedidos de 
+        las 8 cafeterias, el cual fue enviado dentro de la funcion invocada en el
+        metodo main y lo guardo en un arreglo unidimensional para luego retornarlo.
+        */
     }
 
     public static int obtenerSumaTotal(int[][] pedidos) {
@@ -38,6 +43,11 @@ public class Operacion {
         }
 
         return suma;
+        /*
+        En la funcion obtenerSumaTotal calculo la suma total de los pedidos de 
+        las 8 cafeterias, el cual fue enviado dentro de la funcion invocada en el
+        metodo main y lo guardo en una variable de suma para retornarlo.
+        */
     }
 
     public static int[] obtenerSumaSemanal(int[][] pedidos) {
@@ -52,6 +62,11 @@ public class Operacion {
         }
 
         return sumaSemanal;
+        /*
+        En la funcion obtenerSumaSemanal, mediante un ciclo, voy a sumar los 
+        pedidos semanales de cada cafeteria, y los guardo en un arreglo
+        unidimensional. 
+        */
     }
 
     public static int obtenerMenor(int[] pedidosCafeteria) {
@@ -63,7 +78,13 @@ public class Operacion {
                 menor = valor;
             }
         }
+        
         return menor;
+        /*
+        En la funcion obtenerMenor recorro el arreglo pedidosCafeteria mediante
+        un ciclo y voy guardando la posicion en la que se encuentra, comparando 
+        si es menor mediante un condicional.
+        */
     }
 
     public static int obtenerMayor(int[] pedidosCafeteria) {
@@ -75,7 +96,13 @@ public class Operacion {
                 mayor = valor;
             }
         }
+        
         return mayor;
+        /*
+        En la funcion obtenerMayot recorro el arreglo pedidosCafeteria mediante
+        un ciclo y voy guardando la posicion en la que se encuentra, comparando 
+        si es mayor mediante un condicional.
+        */
     }
 
 }
